@@ -36,6 +36,7 @@
 
 .botoes{
     display: flex;
+    align-items: center;
 }
 
 .botoes > li{

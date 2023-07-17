@@ -58,3 +58,49 @@
     text-transform: uppercase;
 }
 
+/* Desaparecer no tablet */
+
+.container__titulo, .opcoes {
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    
+    .cabecalho__menu_hamburguer{
+        display: none;
+    }
+
+    .container__titulo, .container__titulo-negrito {
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .container__titulo{
+        font-weight: 400;
+        display: block;
+    }
+
+    .container__titulo-negrito {
+        font-weight: 700;
+    }
+
+    .opcoes {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .opcoes__item {
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .opcoes__link {
+        text-decoration: none;
+        color: var(--preto)
+    }
+
+    .container__favorito-transparente {
+        display: none;
+    }
+}
