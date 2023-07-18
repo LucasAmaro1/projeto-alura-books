@@ -6,6 +6,7 @@
     text-align: center;
     text-transform: uppercase;
     font-size: 16px;
+    line-height: 27px;
     font-weight: 700;
     padding: 1.5em;
 }
@@ -60,18 +61,21 @@ padding: 1em;
     color: var(--laranja);
     font-weight: 700;
     font-size: 16px;
+    line-height: 24px;
 }
 
 
 .descricao__titulo-livro{
     color: var(--azul);
     font-size: 18px;
+    line-height: 27px;
     font-weight: 700;
     margin: 0.7em 0;
 }
 
 .descricao__texto{
     font-size: 14px;
+    line-height: 21px;
     font-weight: 400;
     margin: 0.7em 0;
 }

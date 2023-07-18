@@ -8,6 +8,8 @@
 .banner__titulo {
     font-size: 18px;
     font-weight: 700;
+    line-height: 27px;
+
 }
 
 .banner__texto {
