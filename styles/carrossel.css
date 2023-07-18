@@ -7,7 +7,7 @@
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
-    padding: 1em 0 0.5em 0;
+    padding: 1.5em;
 }
 
 .swiper-slide img{
@@ -37,6 +37,7 @@
 .botoes{
     display: flex;
     align-items: center;
+    
 }
 
 .botoes > li{
@@ -51,9 +52,14 @@ margin: 1em;
 padding: 1em;
 }
 
+.descricao {
+    padding-right: 1.5em
+}
+
 .descricao__titulo{
     color: var(--laranja);
     font-weight: 700;
+    font-size: 16px;
 }
 
 
@@ -61,11 +67,13 @@ padding: 1em;
     color: var(--azul);
     font-size: 18px;
     font-weight: 700;
-    margin: 0.5em 0;
+    margin: 0.7em 0;
 }
 
 .descricao__texto{
     font-size: 14px;
+    font-weight: 400;
+    margin: 0.7em 0;
 }
 
 .botoes__itens{
@@ -91,4 +99,40 @@ padding: 1em;
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 26px;
+        line-height: 39px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+        top: 60%;
+    }
+
+    .swiper {
+        width: 70%;
+    }
+
+    .card {
+        width: 55%;
+        margin: 0 auto;
+        margin-top: 4em;
+        margin-bottom: 3em;
+    }
+
+    .descricao__texto{
+        font-size: 16px;
+        
+    }
+    
+   
+       
+
 }
