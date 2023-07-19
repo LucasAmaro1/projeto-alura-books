@@ -26,6 +26,7 @@
 
 .container__imagem {
     padding: 1em;
+    
 }
 
 .lista_menu {
@@ -62,6 +63,11 @@
 
 .container__titulo, .opcoes {
     display: none;
+    
+}
+
+.container__descricao {
+    display: none;
 }
 
 @media screen and (min-width: 1024px){
@@ -79,6 +85,7 @@
     .container__titulo{
         font-weight: 400;
         display: block;
+        
     }
 
     .container__titulo-negrito {
@@ -112,4 +119,23 @@
     .opcoes__botao {
         display: none;
     }
+    
+}
+
+@media screen and (min-width: 1728px) {
+    .container__descricao {
+        display: block;
+        font-size: 20px;
+        line-height: 30px;
+        color: var(--preto);
+        margin-right: 2em;
+    }
+
+    .opcoes{
+        position: relative;
+        right: 15%;
+        
+    }
+
+
 }

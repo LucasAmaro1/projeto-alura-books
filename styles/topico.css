@@ -48,3 +48,14 @@
 
 
 }
+
+@media screen and (min-width: 1728px) {
+    .topico__titulo {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .topico__lista {
+        margin: 3em 20em;
+    }
+}
