@@ -57,7 +57,7 @@
    
     .lista__rodape {
         border-left: 1px solid var(--cinza-claro);
-        padding: 1em;
+        padding-left: 1em;
         
     }
 }
